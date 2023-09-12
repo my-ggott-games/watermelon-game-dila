@@ -30134,7 +30134,7 @@
                 }
                 if (a = t.match(/^(outline(\s)*[^>]*)/)) {
                     var c = {
-                        color: "#ffffff",
+                        color: "#C2DEF3",
                         width: 1
                     };
                     if (t = a[0].substring("outline".length).trim()) {
@@ -40932,7 +40932,7 @@
                     e && e.style && (e.style.opacity = t / 255)
                 },
                 _createDom: function(t, e) {
-                    a._polyfill.enableDiv ? (this._div = document.createElement("div"), this._div.style["-webkit-overflow"] = "auto", this._div.style["-webkit-overflow-scrolling"] = "touch", this._iframe = document.createElement("iframe"), this._div.appendChild(this._iframe), this._iframe.style.width = "100%", this._iframe.style.height = "100%") : this._div = this._iframe = document.createElement("iframe"), a._polyfill.enableBG && (this._div.style.background = "#FFF"), this._div.style.background = "#FFF", this._div.style.height = e + "px", this._div.style.width = t + "px", this._div.style.overflow = "scroll", this._iframe.style.border = "none", cc.game.container.appendChild(this._div), this._updateVisibility()
+                    a._polyfill.enableDiv ? (this._div = document.createElement("div"), this._div.style["-webkit-overflow"] = "auto", this._div.style["-webkit-overflow-scrolling"] = "touch", this._iframe = document.createElement("iframe"), this._div.appendChild(this._iframe), this._iframe.style.width = "100%", this._iframe.style.height = "100%") : this._div = this._iframe = document.createElement("iframe"), a._polyfill.enableBG && (this._div.style.background = "#C2DEF3"), this._div.style.background = "#FFF", this._div.style.height = e + "px", this._div.style.width = t + "px", this._div.style.overflow = "scroll", this._iframe.style.border = "none", cc.game.container.appendChild(this._div), this._updateVisibility()
                 },
                 _createNativeControl: function(t, e) {
                     this._createDom(t, e), this._initStyle(), this._initEvent()
